@@ -1,0 +1,26 @@
+[package]
+name = "zero_knowledge"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ark-std = "0.4"
+ark-ff = "0.4"
+ark-bn254 = "0.4"
+ark-relations = "0.4"
+ark-r1cs-std = "0.4"
+ark-snark = "0.4"
+ark-groth16 = "0.4"
+ark-crypto-primitives = "0.4"
+# ark-r1cs-core = "0.4"
+rand = "0.8.4"
+tracing-subscriber = "0.3.19"
+# ark-serialize = "0.5.0"
+rand_chacha = "0.9.0"
+rand_core = "0.9.3"
+hex = "0.4"
+
+ark-test-curves = "0.4.0"
+ark-ec = "0.5.0"
+ark-serialize = { version = "0.4", features = ["derive"] }
+ark-bls12-381 = "0.5.0"
